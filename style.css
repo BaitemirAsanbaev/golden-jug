@@ -65,3 +65,14 @@ section article h2{
     position: relative;
     top: 150px;
 }
+footer small{
+    max-width: 800px;
+    margin: 30px 100px auto;
+}
+footer{
+    background-color: rgb(182, 27, 27);
+    height: 20px;
+    color: #fff;
+    font-family: 'Montserrat';
+    margin-top: 50px;
+}
