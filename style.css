@@ -10,11 +10,12 @@ body{
     background-size: cover;
     background-position: top;
 }
-nav ul li a{
+ul li a{
     text-decoration: none;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 20px;
+    line-height: 1.5;
 }
 nav ul li{
     display: inline;
@@ -103,4 +104,7 @@ section ul li{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+#con-footer{
+    margin-top: 427px;
 }
