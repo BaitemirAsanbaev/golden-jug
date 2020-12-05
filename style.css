@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 *{
@@ -6,4 +6,28 @@
 }
 body{
     margin: 0px;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+nav{
+    background-color: rgb(182, 27, 27);
+    height: 40px;
+    padding: 10px;
 }
