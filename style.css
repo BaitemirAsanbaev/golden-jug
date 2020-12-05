@@ -30,6 +30,8 @@ nav{
     background-color: rgb(182, 27, 27);
     height: 40px;
     padding: 10px;
+    position: sticky;
+    top: 0px;
 }
 header, section{
     max-width: 800px;
