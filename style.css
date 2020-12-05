@@ -31,18 +31,37 @@ nav{
     height: 40px;
     padding: 10px;
 }
-header{
+header, section{
     max-width: 800px;
     margin: 50px 100px auto;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
 }
-header h1, header p{
+h1, h2, p{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     line-height: 1.5;
 }
-header p{
+p{
     font-size: 20px;
+}
+section article:nth-of-type(1){
+    background-image: url(./bbq.jpg);
+}
+section article:nth-of-type(2){
+    background-image: url(./pizza.jpg);
+    background-position: bottom;
+}
+section article:nth-of-type(3){
+    background-image: url(./plov.jpg);
+}
+section article{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+section article h2{
+    position: relative;
+    top: 150px;
 }
